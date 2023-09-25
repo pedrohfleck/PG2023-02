@@ -1,0 +1,1 @@
+## Lista de Exercícios 1 – Processamento Gráfico
