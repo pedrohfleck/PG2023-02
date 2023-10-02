@@ -1,1 +1,27 @@
 ## Lista de Exercícios 1 – Processamento Gráfico
+
+<b>1. O que é a GLSL? Quais os dois tipos de shaders são obrigatórios no pipeline programável da versão atual que trabalhamos em aula e o que eles processam?</b>
+
+OpenGL Shading Language (GLSL) é uma linguagem de programação de alto nível com uma sintaxe baseada em C. No contexto da versão que trabalhamos em aula, existem dois tipos de shaders obrigatórios: o Vertex Shader, que define como processar um vértice, e o Fragment Shader, que define como processar uma área (fragmento).
+
+<b>2. O que são primitivas gráficas? Como fazemos o armazenamento dos vértices na OpenGL?</b>
+
+As primitivas gráficas são os elementos mais simples que podem ser criados.
+
+- GL_POINTS: pontos
+- GL_LINES: linha a cada 2 pontos do array
+- GL_LINE_STRIP: linha entre todos os pontos do array do primeiro ao ultimo
+- GL_LINE_LOOP: linha entre todos os pontos do array
+- GL_TRIANGULOS: triangulo a cada 3 pontos do array
+- GL_TRIANGLE_STRIP: triangulos grudados
+- GL_TRIANGLE_FAN: triangulo a cada 2 pontos do array sendo que o terceiro ponto é sempre o primeiro do array
+
+Para armazenar vértices na OpenGL, geralmente se utiliza Buffers de Vértices (Vertex Buffers) e Vertex Arrays.
+
+<b>3. Explique o que é VBO, VAO e EBO, e como se relacionam (se achar mais fácil, pode fazer um gráfico representando a relação entre eles).</b>
+
+VBO: é uma região de memória na placa de vídeo (GPU) que armazena os dados dos vértices. Isso inclui informações como coordenadas 3D, cores, texturas, normais e quaisquer outros atributos associados a cada vértice.
+VAO: é um objeto que gerencia o estado e a configuração dos VBOs. Ele mantém informações sobre como os dados nos VBOs estão organizados e quais atributos estão associados a cada vértice.
+EBO: é outro tipo de buffer que armazena índices que referenciam vértices nos VBOs. Os índices são usados para definir a ordem em que os vértices são renderizados, permitindo a reutilização de vértices e economizando memória.
+
+Usar VBOs, VAOs e EBOs juntos ajuda a organizar e otimizar o fluxo de dados entre a CPU e a GPU, melhorando o desempenho e simplificando a renderização de objetos 3D complexos.
