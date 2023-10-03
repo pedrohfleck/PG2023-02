@@ -25,3 +25,21 @@ VAO: é um objeto que gerencia o estado e a configuração dos VBOs. Ele mantém
 EBO: é outro tipo de buffer que armazena índices que referenciam vértices nos VBOs. Os índices são usados para definir a ordem em que os vértices são renderizados, permitindo a reutilização de vértices e economizando memória.
 
 Usar VBOs, VAOs e EBOs juntos ajuda a organizar e otimizar o fluxo de dados entre a CPU e a GPU, melhorando o desempenho e simplificando a renderização de objetos 3D complexos.
+
+<b> 5. Faça o desenho de 2 triângulos na tela. Desenhe eles: </b>
+
+a. Apenas com o polígono preenchido
+
+<img src="./Exercício 5/Imagens/5.a.png" width="1000">
+
+b. Apenas com contorno
+
+<img src="./Exercício 5/Imagens/5.b.png" width="1000">
+
+c. Apenas como pontos
+
+<img src="./Exercício 5/Imagens/5.c.png" width="1000">
+
+d. Com as 3 formas de desenho juntas
+
+<img src="./Exercício 5/Imagens/5.d.png" width="1000">
