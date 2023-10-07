@@ -30,16 +30,54 @@ Usar VBOs, VAOs e EBOs juntos ajuda a organizar e otimizar o fluxo de dados entr
 
 a. Apenas com o polígono preenchido
 
-<img src="./Exercício 5/Imagens/5.a.png" width="1000">
+<img src="./Exercício 5/Imagens/5.a.png" width="500">
 
 b. Apenas com contorno
 
-<img src="./Exercício 5/Imagens/5.b.png" width="1000">
+<img src="./Exercício 5/Imagens/5.b.png" width="500">
 
 c. Apenas como pontos
 
-<img src="./Exercício 5/Imagens/5.c.png" width="1000">
+<img src="./Exercício 5/Imagens/5.c.png" width="500">
 
 d. Com as 3 formas de desenho juntas
 
-<img src="./Exercício 5/Imagens/5.d.png" width="1000">
+<img src="./Exercício 5/Imagens/5.d.png" width="500">
+
+<b> 6. Faça o desenho de um círculo na tela, utilizando a equação paramétrica do círculo para gerar os vértices. Depois disso: </b>
+
+<img src="./Exercício 6/Imagens/6.png" width="500">
+
+a. Desenhe um octágono
+
+<img src="./Exercício 6/Imagens/6.a.png" width="500">
+
+b. Desenhe um pentágono
+
+<img src="./Exercício 6/Imagens/6.b.png" width="500">
+
+c. Desenhe um pac-man!
+
+<img src="./Exercício 6/Imagens/6.c.png" width="500">
+
+d. Desenhe uma fatia de pizza
+
+<img src="./Exercício 6/Imagens/6.d.png" width="500">
+
+<b>7. Desenhe uma espiral, assim:</b>
+
+<img src="./Exercício 7/Imagens/7.png" width="500">
+
+<b>8. Considerando o seguinte triângulo abaixo, formado pelos vértices P1, P2 e P3, respectivamente com as cores vermelho, verde e azul.</b>
+
+a. Descreva uma possível configuração dos buffers (VBO, VAO e EBO) para representá-lo.
+
+b. Como estes atributos seriam identificados no vertex shader?
+
+Agora implemente!
+
+<img src="./Exercício 8/Imagens/8.png" width="500">
+
+<b>9. Faça um desenho em um papel quadriculado (pode ser no computador mesmo) e reproduza-o utilizando primitivas em OpenGL. Neste exercício você poderá criar mais de um VAO e fazer mais de uma chamada de desenho para poder utilizar primitivas diferentes, se necessário.</b>
+
+<img src="./Exercício 9/Imagens/9.png" width="1000">
