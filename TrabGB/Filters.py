@@ -95,6 +95,7 @@ def apply_all(imgOriginal):
 			imgA3.itemset((i,j,2),red) 
 			
 	return {
+		"Original": imgOriginal,
 		"BlackAndWhite": imgBNW,
 		"Colored": imgColored,
 		"Negative": imgNeg,
